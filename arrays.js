@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  var tempArray = array.splice(0,0,element)
+  var tempArray = array.unshift(element)
   return tempArray;
 }
 
@@ -14,7 +14,7 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-  var tempArray = array.push(element)
+  var tempArray = array.push(element);
   return tempArray;
 }
 
