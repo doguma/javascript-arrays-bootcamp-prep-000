@@ -13,7 +13,7 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-  return array.shift(element);
+  return array.push(element);
 }
 
 function accessElementInArray(array, index){
@@ -21,5 +21,11 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  
+  array.shift();
 }
+
+function removeElementFromBeginningOfArray(array){
+  return slice(1);
+}
+
+function re
