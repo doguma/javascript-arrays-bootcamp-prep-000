@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  array.splice(1,0,element)
+  array.splice(1,element)
   return array;
 }
 
@@ -23,7 +23,7 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array.splice(array.length, 1);
+  array.splice(1, 1);
   return array;
 }
 
